@@ -1,0 +1,37 @@
+[
+    {
+        "source": "192.168.1.10",
+        "destination": "8.8.8.8",
+        "port": 53,
+        "protocol": "UDP",
+        "action": "ALLOW"
+    },
+    {
+        "source": "192.168.1.20",
+        "destination": "10.0.0.5",
+        "port": 22,
+        "protocol": "TCP",
+        "action": "DENY"
+    },
+    {
+        "source": "ANY",
+        "destination": "192.168.1.100",
+        "port": 80,
+        "protocol": "TCP",
+        "action": "ALLOW"
+    },
+    {
+        "source": "10.0.0.15",
+        "destination": "ANY",
+        "port": 0,
+        "protocol": "ANY",
+        "action": "DENY"
+    },
+    {
+        "source": "172.16.5.25",
+        "destination": "172.16.5.10",
+        "port": 443,
+        "protocol": "TCP",
+        "action": "ALLOW"
+    }
+]
