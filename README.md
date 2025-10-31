@@ -30,12 +30,20 @@ git clone https://github.com/abhishek2871/Firewall-Policy-Rules-Simulator
 cd firewall-policy-simulator
 
 2️⃣ (Optional) Create a virtual environment
+
+
 python -m venv venv
+
+
 venv\Scripts\activate  # for Windows
 source venv/bin/activate  # for Linux/macOS
 
 3️⃣ Install dependencies
+
+
 pip install -r requirements.txt
 
 4️⃣ Run the simulator
+
+
 python firewall_simulator.py
