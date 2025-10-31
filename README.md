@@ -23,6 +23,8 @@ It helps cybersecurity learners and professionals understand how firewalls filte
 🚀 Cross-Platform Support – Runs on Windows, macOS, and Linux (Python 3+).
 
 How to Run the Tool
+
+
 1️⃣ Clone the repository
 git clone https://github.com/abhishek2871/Firewall-Policy-Rules-Simulator
 cd firewall-policy-simulator
