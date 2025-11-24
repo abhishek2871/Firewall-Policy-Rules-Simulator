@@ -45,8 +45,12 @@ It helps cybersecurity learners and professionals understand how firewalls filte
 
     cd firewall-policy-simulator
 
+ ---   
+
+    chnod 777  firewale_Rules_Policy.py
+
  ---
-     python firewale_Rules_Policy.py
+     python3 firewale_Rules_Policy.py
 
 2️⃣ (Optional) Create a virtual environment
 
