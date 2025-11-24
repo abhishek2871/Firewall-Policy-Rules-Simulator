@@ -31,7 +31,14 @@ It helps cybersecurity learners and professionals understand how firewalls filte
 
 
 1️⃣ Clone the repository
-    
+
+    sudo apt update
+
+---
+
+    sudo apt install python3-tk
+
+ ---   
     git clone https://github.com/abhishek2871/Firewall-Policy-Rules-Simulator
 
 ---
@@ -51,12 +58,11 @@ It helps cybersecurity learners and professionals understand how firewalls filte
 
     source venv/bin/activate  # for Linux/macOS
 
-3️⃣ Install dependencies
 
 
-    pip install -r requirements.txt
 
-4️⃣ Run the simulator
+   
+
 
 
 python firewall_simulator.py
